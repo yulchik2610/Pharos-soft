@@ -1,0 +1,36 @@
+=== PHAROS SCRIPT USAGE GUIDE ===
+
+✅ 1. Requirements:
+- Node.js v16+ (Download: https://nodejs.org)
+- Files needed: priv.txt, proxies.txt
+- Run in terminal: node -v && npm -v
+
+✅ 2. Install dependencies:
+$ npm install
+
+✅ 3. Files:
+- priv.txt (private keys, 1 per line)
+- proxies.txt (HTTP/S proxy list)
+- logs/ will be auto-created
+
+✅ 4. Launch script:
+$ node main.js
+
+Choose an option from menu:
+1 - Start with faucet
+2 - Start without faucet
+3 - Full liquidity
+4 - Full swaps/conversions
+5 - Faucet only
+
+Then input:
+- Threads (1–100)
+- Iterations (e.g. 10–25)
+
+✅ 5. Logs:
+- logs/success_log/
+- logs/failed_log/
+
+✅ 6. Notes:
+- Proxy format: http://user:pass@ip:port
+- You’ll see progress in the console
